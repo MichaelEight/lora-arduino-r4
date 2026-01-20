@@ -1,0 +1,29 @@
+{
+  "name": "lora-gps-tracker",
+  "version": "1.0.0",
+  "description": "Android app that sends GPS coordinates to Arduino via BLE for LoRaWAN transmission",
+  "author": "MichasProgramuje",
+  "license": "MIT",
+  "main": "index.ts",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo run:android"
+  },
+  "dependencies": {
+    "@react-native-async-storage/async-storage": "2.2.0",
+    "@react-native-community/slider": "5.0.1",
+    "buffer": "^6.0.3",
+    "expo": "~54.0.27",
+    "expo-device": "~8.0.10",
+    "expo-location": "~19.0.8",
+    "expo-status-bar": "~3.0.9",
+    "react": "19.1.0",
+    "react-native": "0.81.5",
+    "react-native-ble-plx": "^3.5.0"
+  },
+  "devDependencies": {
+    "@types/react": "~19.1.0",
+    "typescript": "~5.9.2"
+  },
+  "private": true
+}
