@@ -23,7 +23,7 @@ A GPS tracking system that receives location data from a smartphone via BLE and 
    - NSS -> Pin 10  
    - DIO0 -> Pin 2  
    - DIO1 -> Pin 3  
-   - RESET -> Pin 9  
+   - RESET -> Pin 5  
    - VCC -> 3.3V  
    - GND -> GND  
 
