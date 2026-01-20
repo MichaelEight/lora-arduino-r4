@@ -5,7 +5,7 @@
 #define NSS_PIN   10
 #define DIO0_PIN  2
 #define DIO1_PIN  3
-#define RESET_PIN 9
+#define RESET_PIN 5
 SX1276 radio = new Module(NSS_PIN, DIO0_PIN, RESET_PIN, DIO1_PIN);
 LoRaWANNode node(&radio, &EU868);
 
